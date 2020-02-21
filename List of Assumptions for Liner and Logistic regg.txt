@@ -1,0 +1,21 @@
+
+Assumptions:
+
+Linear Regression:
+
+1. Variable Types: All predictor variables must be quantitative or categorical (with 2 categories) and the outcome variable must be quantitative, continuous and unbounded.
+2. Non-Zero Variance: The predictors variables should have some variation in them.
+3. No perfect MULTICOLLINEARITY: There should be no perfect linear relationship between two or more predictor variables. [VIF]
+4. Predictors are ‘uncorrelated’ with ‘external variables’. 
+5. Independent errors: For any two observations the residual terms should be uncorrelated (or independent). [Durbin-Watson Test]
+6. Normally distributed errors: It is assumed that the residuals in the model are random, normally distributed variables with a mean of 0.
+7. Independence: It is assumed that all the values of the outcome variable are independent.
+8. Homoscedasticity: At each level of the predictor variable, the variance of the residual term should be constant.
+9. Linearity: The mean values of the outcome variable for each increment of the predictor(s) lie along a straight line.
+
+
+Log Reg:
+1. Variable Type: All predictor variables must be quantitative or categorical (with 2 categories) and the outcome variable must be categorical (with 2 categories).
+2. Linearity: There is a linear relationship between the predictor variables and logit of the outcome variable.
+3. Independence of errors: For any two observations the residual terms should be uncorrelated (or independent). [Durbin-Watson Test]
+4. No perfect MULTICOLLINEARITY: There should be no perfect linear relationship between two or more predictor variables. [VIF]
